@@ -35,22 +35,8 @@ body{
     letter-spacing: 0.02em;
     text-decoration: none;
 }
-.nav-navigation:hover, 
-.contacts:hover, 
-.address-geography:hover, 
-.footer-logo:hover, 
-.footer-contact:hover,
-.nav-logo:hover,
-.nav-navigation:focus,
-.contacts:focus,
-.address-geography:focus,
-.footer-logo:focus,
-.footer-contact:focus,
-.nav-logo:focus,
-.hero-button:hover,
-.portfolio-button:hover,
-.hero-button:focus,
-.portfolio-button:focus
+.link:hover, 
+.link:focus
 {
     color: #2196F3;
 }
