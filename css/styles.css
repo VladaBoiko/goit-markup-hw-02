@@ -1,8 +1,14 @@
 :root{
     --main-text-color: #757575;
     --title-text-color: #212121;
+    --focus-color: 
 
 }
+body{
+    font-family: 'Roboto', 'sans-serif';
+    color: var(--main-text-color);
+}
+
 
 /* навигация */
 .nav-logo{
@@ -15,24 +21,43 @@
     text-decoration: none;
 }
 
+
 .nav-logo-web{
     color: #2196F3;
+
 }
 
 .nav-navigation{
     color: var(--title-text-color);
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
+.nav-navigation:hover, 
+.contacts:hover, 
+.address-geography:hover, 
+.footer-logo:hover, 
+.footer-contact:hover,
+.nav-logo:hover,
+.nav-navigation:focus,
+.contacts:focus,
+.address-geography:focus,
+.footer-logo:focus,
+.footer-contact:focus,
+.nav-logo:focus,
+.hero-button:hover,
+.portfolio-button:hover,
+.hero-button:focus,
+.portfolio-button:focus
+{
+    color: #2196F3;
+}
+
 /* Контакты */
 .contacts{
-    font-family: 'Roboto';
-    font-style: normal;
+  
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -40,10 +65,11 @@
     color: var(--main-text-color);
     text-decoration: none;
     }
+   
 /* герой */
 .hero{
     background-color: #2F303A;
-    /* font-family: 'Roboto';
+    /* 
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -53,8 +79,8 @@
     text-transform: uppercase; */
 }
 .hero-text{
-    font-family: 'Roboto';
-    font-style: normal;
+    
+    
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -63,6 +89,7 @@
     text-transform: uppercase;
     color: #FFFFFF; 
 }
+
 /* другое */
 .ul{
 list-style: none;
@@ -71,8 +98,7 @@ list-style: none;
 
 /* преимущества */
 .exelents-title{
-    font-family: 'Roboto';
-    font-style: normal;
+   
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -80,17 +106,14 @@ list-style: none;
     color: var(--title-text-color);
 }
 .exelents-text{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+    
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--main-text-color);
+    
 }
 .what-we-do-title{
-    font-family: 'Roboto';
-font-style: normal;
+    
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
@@ -100,8 +123,7 @@ color: var(--title-text-color);
 }
 /* наша команда */
 .our-team-title{
-    font-family: 'Roboto';
-font-style: normal;
+    
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
@@ -110,8 +132,7 @@ letter-spacing: 0.03em;
 color: var(--title-text-color);
 }
 .our-team-name{
-    font-family: 'Roboto';
-font-style: normal;
+
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
@@ -120,14 +141,12 @@ letter-spacing: 0.03em;
 color: var(--title-text-color);
 }
 .our-team-position{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
+
 font-size: 16px;
 line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
-color: var(--main-text-color);
+
 }
 
 /* Футер */
@@ -137,7 +156,6 @@ color: var(--main-text-color);
 }
 .footer-logo{
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -147,7 +165,6 @@ color: var(--main-text-color);
 }
 .footer-logo-web{
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -155,7 +172,7 @@ color: var(--main-text-color);
     color: #2196F3;
 }
 .address-geography{
-    font-family: 'Roboto';
+    
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -165,7 +182,7 @@ color: var(--main-text-color);
     text-decoration: none;
 }
 .footer-contact{
-    font-family: 'Roboto';
+    
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -173,4 +190,23 @@ color: var(--main-text-color);
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+}
+/* Портфолио */
+.project-title{
+    
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;    
+    color: var(--title-text-color)
+}
+
+.project-type{
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
+.hero,
+.portfolio-button{
+    cursor: pointer;
 }
