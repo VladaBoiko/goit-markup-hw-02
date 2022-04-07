@@ -51,7 +51,7 @@ body{
     color: var(--focus-color);
 }
 
-/* Контакты */
+/* -------------------------------Контакты------------------------------- */
 .contacts{
   
     font-weight: 500;
@@ -61,14 +61,11 @@ body{
     text-decoration: none;
     }
    
-/* герой */
+/* ----------------------------герой--------------------------------------- */
 .hero{
-    background-color: var(--hero-background-color);
-    
+    background-color: var(--hero-background-color); 
 }
 .hero-text{
-    
-    
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -93,7 +90,7 @@ body{
     }
 
 
-/* другое */
+/* --------------------другое--------------------- */
 .ul{
     list-style: none;
 }
@@ -101,45 +98,43 @@ body{
 
 /* преимущества */
 .exelents-title{
-   
     font-weight: 700;
     line-height: 1.14;
     color: var(--title-text-color);
 }
 .exelents-text{
-    line-height: 1.71;
-    
+    line-height: 1.71;  
 }
-.what-we-do-title{
-    
-font-weight: 700;
-font-size: 36px;
-line-height: 1.17;
-text-align: center;
-color: var(--title-text-color);
+
+.what-we-do-title{    
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--title-text-color);
 }
-/* наша команда */
+/* -------------------------наша команда ------------------------*/
 .our-team-title{
     
-font-weight: 700;
-font-size: 36px;
-line-height: 1.17;
-text-align: center;
-color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--title-text-color);
 }
 .our-team-name{
 
-font-weight: 500;
-font-size: 16px;
-line-height: 1.19;
-text-align: center;
-color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    color: var(--title-text-color);
 }
 .our-team-position{
 
-font-size: 16px;
-line-height: 1.19;
-text-align: center;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
 
 }
 
