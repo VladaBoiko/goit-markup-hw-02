@@ -8,6 +8,9 @@
     --footer-bcg-color: #2F303A;
     --footer-logo-color: white;
     --footer-contact-color: rgba(255, 255, 255, 0.6);
+    --nav-logo-web-color: #2196F3;
+
+}
     
 body{
     font-family: 'Roboto', 'sans-serif';
@@ -30,7 +33,7 @@ body{
 
 
 .nav-logo-web{
-    color: #2196F3;
+    color: var(--nav-logo-web-color);
 
 }
 
@@ -41,9 +44,10 @@ body{
     letter-spacing: 0.02em;
     text-decoration: none;
 }
+.nav-navigation:hover,
+.nav-navigation:focus,
 .link:hover, 
-.link:focus
-{
+.link:focus{
     color: var(--focus-color);
 }
 
@@ -60,14 +64,7 @@ body{
 /* герой */
 .hero{
     background-color: var(--hero-background-color);
-    /* 
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase; */
+    
 }
 .hero-text{
     
@@ -80,6 +77,21 @@ body{
     text-transform: uppercase;
     color: var(--hero-text-color); 
 }
+.hero-button{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: var(--focus-color);
+    color: var(--hero-text-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    }
+
 
 /* другое */
 .ul{
@@ -131,11 +143,9 @@ text-align: center;
 
 }
 
-/* Футер */
+/* -----------------------------------Футер ----------------------------------*/
 .footer{
     background-color: var(--footer-bcg-color);
-   
-
 }
 .footer-logo{
     font-family: 'Raleway';
@@ -146,7 +156,7 @@ text-align: center;
     text-decoration: none;
     }
 .footer-logo-web{
-     color: #2196F3;
+     color: var(--nav-logo-web-color);
 }
 .address-geography{
     
@@ -165,21 +175,57 @@ text-align: center;
     text-decoration: none;
    
 }
-/* Портфолио */
+/* --------------------------Портфолио--------------------------- */
+/* ----карточки------- */
 .project-title{
-    
+    color: var(--title-text-color);
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    }
+.project-type{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+
+
+
+}
+.project-cards{
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;    
-    color: var(--title-text-color)
+    color: var(--title-text-color);
+    text-decoration: none;
 }
 
-.project-type{
-    font-size: 16px;
-    line-height: 1.88;
-
+/* -----------кнопки------------- */
 .hero-button,
 .portfolio-button{
     cursor: pointer;
+}
+
+.portfolio-button{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+.portfolio-button:hover,
+.portfolio-button:focus{
+    background-color: var(--focus-color);
+    color: var(--hero-text-color);
 }
